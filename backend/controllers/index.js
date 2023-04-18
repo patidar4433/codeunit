@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 // const jwt = require("jsonwebtoken");
 
 // user Sign Up controller
-const SignUpController = async (req, res) => {
+const SignUpController =  async (req, res) => {
   const firstname = req.body.firstname;
   const lastname = req.body.lastname;
   const contact = req.body.contact;
